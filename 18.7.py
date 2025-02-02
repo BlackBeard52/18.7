@@ -114,7 +114,7 @@ while True:
 
     elif command == 7:
         print('7. Удалить данные по ученикам')
-        end_student = input('Введите ученика, который хотите удалить: ')
+        end_student = input('Введите ученика, которого хотите удалить: ')
         if end_student in students_marks:
             del students_marks[end_student]
             print(students_marks)
